@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="brighton restaurants hove top restaurants wok china food takeaway pizza delivery perfect nandos express">
+    <title>NooNoodles</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/logomin.png" type="image/png">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp8lW_S9sm-XtJl1uhxC6LXsDdf_p-RcY&signed_in=true"></script>
+
+</head><!--/head-->
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <?php include_once("analyticstracking.php") ?>
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#noofriends"> #NooFriends</a></li>
+                        <li><a href="#main-slider">OUR FOOD</a></li>
+                        <li><a href="#ourlocations">OUR LOCATIONS</a></li>
+                        <li><a href="#offers">OFFERS</a></li>
+                        <li><a href="#aboutus">ABOUT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!--/#header-->
+    <section id="main-slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!--   <ol class="carousel-indicators">
+                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               </ol>-->
+            <div class="carousel-inner carousel-height">
+                <div class="item active">
+                    <img src="images/ourfood/wok1.jpg" class="carousel-img">
+                </div>
+                <div class="item">
+                    <img src="images/ourfood/wok2.jpg" class="carousel-img">
+                </div>
+                <div class="item">
+                    <img src="images/ourfood/wok3.jpg" class="carousel-img">
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!--  </section><!--/#main-slider
+
+          <section id="ourfood">-->
+        <div class="container">
+            <div class="box first">
+                <div class="bak">
+                <div class="center gap">
+                    
+                    <h3>It's Fresh and it's on Fire <br>Your personal chef for as little as a fiver</h3>
+                    <div class="row">                        
+                       <div class="col-md-3 col-sm-3" >
+                          
+                        </div>
+                         <div class="col-md-6 col-sm-6">
+                            <p>
+                                Humans have been eating noodles for over 2000 years - this food is time tested!
+                                Today more than 2 billion people ACROSS THE WORLD choose noodles  daily as a healthy lunch option.
+                                Mostly they’re cooked in Asian style at Chinese ,
+                                Thai or Japanese restaurants . A portion of our noodles contains almost all necessary vitamins and micro elements that you need every day.
+                                It is scientifically proven that stir frying, like we do, keeps all the goodies inside the dish.  You can definitely count wok noodlesas a healthy fast food!
+                                Also consider: low calories, pure protein and high energy meals.
+                                <br>We do have vegetarian and vegan menu options.
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-sm-3 ">
+                    </div>
+                    
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6">
+                            <div class="form-group text-align-right">
+                                <button type="submit" onclick="location.href='http://noonoodles.co.uk/delivery/'" class="btn btn-danger btn-lg">order for collection</button>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="form-group text-align-left">
+                                <button type="submit" onclick="location.href='http://noonoodles.co.uk/delivery/#!/register'" class="btn btn-danger btn-lg">order for delivery </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                  
+                        </div>
+                </div><!--/.center-->
+     </div>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+    <section id="ourlocations">
+        <div class="container">
+            <div class="box ">
+               <div class="bak">
+                <div class="center">  
+                      
+                         <h2>OUT LOCATIONS</h2> 
+                    <div class="row">  
+                        <div class="col-sm-offset-3 col-sm-6">
+                        <div id="map"></div>   
+                        <br />
+                               
+                        </div>
+                        
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6">
+                            <div class="form-group text-align-right">
+                                <button type="submit" onclick="location.href='http://noonoodles.co.uk/Brighton/'" class="btn btn-danger btn-lg"> <i class="fa fa-map-marker"></i>  Brighton </button>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-6">
+                            <div class="form-group text-align-left">
+                                <button type="submit" onclick="location.href='http://noonoodles.co.uk/Southend-on-Sea/'" class="btn btn-danger btn-lg">  <i class="fa fa-map-marker"></i>  Southend-on-Sea </i></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#about-us-->
+        
+    
+    <section id="offers">
+        <div class="container">
+            <div class="box ">
+                    <div class="bak">
+                <div class="center gap">
+                    <h2>OFFERS</h2>
+                </div><!--/.center-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-3"></div>
+                    <div class="col-md-6 col-sm-6">
+                        <p>Every day we try to find a healthy lunch option, regardless if this is pizza, burger, Chinese takeaway or curry.</p>
+                        <p>Why do we look for fast food restaurants or fast foods that deliver near me.</p>
+                        <p>The answer is simple - lack of time. Moreover not every food keeps its quality for a long time after being cooked. </p>
+                        <p>
+                            Most common fast food is pizza. If you are looking for pizza deals today or pizza near me you will get plenty of restaurants.
+                            Pizza is a great choice, but doesn't seem to be very healthy lunch option for every day.
+                        </p>
+                        <p>
+                            Why not try something new?  You're searching for fast food deals, local fast food, fast food near me or fast food that deliver near me.
+                            You get hundreds of results. Pizza, burger, burrito, kebab, oriental takeaway, fish & chips, Indian curry - they are all there.
+                        </p>
+                        <p>It can be very frustrating to make a right choice. We give you a clue: the best fast food restaurants are cooking food on order in front of you. </p>
+                        <p>Give a try to our noodles. This is really healthy fast food! All our dishes are cooked using authentic wok and real fire! We don't just cook Chinese food or Thai food recipes, but many other varieties of Asian dishes.</p>
+                        <p>We work late hours, so before or after going to a pub or bar, why not to have a hot noodles to save your money? We have delivery and take away menu options as well.</p>
+                        <p>Possibly we are the best local fast food near you!</p>
+
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-3 col-sm-3"></div>
+                </div><!--/.row-->
+                </div>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+    <section id="noofriends">
+        <div class="container">
+            <div class="box">
+                    <div class="bak">
+                <!--    <div class="center gap">
+                     <h2> #NooFriends</h2>
+                 </div>/.center-->
+                <div class="row">
+                    
+                        
+                        <div class="center">
+                            <h2> #NooFriends</h2>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3"></div>
+                                <div class="col-md-6 col-sm-6">
+                                    <p>
+                                        Make every wokrewarding
+                                        We are extremely happy to invite all new and existing customers to become our friends. Join #NooFriends rewards programme and get more then usually.
+                                        This is our way to say "thank you" for your loyalty. #NooFriends is a unique opportunity to be rewarded for eating favourite street food!
+                                        All you need to grab the #NooFriends rewards card over the counter and register it online. Please note, this is just a beginning!
+                                        We will be updating special offers and promotions regularly. We appreciate your feedback as well. Let us know what you think about it!
+                                        <br>Ask yourself:  where is the best oriental takeaway near me? This is us! And we have a great lunch deal for you!
+                                    </p>
+                                    <p>
+                                        Be the first to get all latest deals - Register now
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3"></div>
+                        </div>
+                        <br>
+                        <div class="form-group text-align-center">
+                            <button type="submit" onclick="location.href='http://noonoodles.co.uk/delivery/#!/register'" class="btn btn-danger btn-lg">Join #NooFriends</button>
+                        </div>
+                        <br>
+                  
+              <div class="col-sm-offset-3 col-sm-6">
+                <div class="well">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item1.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item2.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item3.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item4.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item5.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item6.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--/item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item7.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item8.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item9.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item4.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item3.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item5.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--/item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item4.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item5.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item3.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item4.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item6.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-2 col-md-2 col-sm-2">
+                                        <a href="#x"><img src="images/noofriends/item5.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--/item-->
+                        </div>
+                        <!--/carousel-inner-->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                    </div>
+                    <!--/myCarousel-->
+                </div>
+                </div>
+                  </div><!--/.col-md-4-->
+                </div><!--/.row-->
+                <!--/well-->
+            </div><!--/.box-->
+                </div>
+        </div><!--/.container-->
+    </section><!--/#services-->
+    <section id="aboutus">
+        <div class="container">
+            <div class="box   ">
+                <div class="bak">
+                <div class="center gap">
+                    <h2>ABOUT US</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3"></div>
+                        <div class="col-md-6 col-sm-6">
+                            <p>
+                                NOO Noodles - possibly is the best oriental takeaway restaurant near you!
+                                It’s healthy fast food. NOO wok meals are cooked individually on fire in front of you.
+                                Choose your ingredients and watch. Make it personal!
+                                We have a big variety of tastes to choose from (Chinese food, Japanese food, Thai food).
+                                You will never get bored with NOO Noodles! It's fun to eat outside or have it delivered to your door.
+                                We don’t compete with other fast food such as pizza and burgers.
+                            <br>We only cook wok dishes - that are fresh and gives you energy, keeps you happy and healthy! Real noodles when it's cooked on fire.
+                            </p>
+                        </div>
+                        <div class="col-xs-3 col-md-3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-3">
+                        </div><!--/.col-md-4-->
+                        <div class="col-xs-6 col-md-6">
+                            <div class="center">
+                                <h4> Contact us: <a href="mailto:info@noonoodles.co.uk">info@noonoodles.co.uk</a></h4>
+                                <h4> Contact number: <a href="tel:02071177995">02071177995</a></h4>
+                            </div><!--/.col-md-4-->
+                        </div><!--/.row-->
+                        <div class="col-xs-3 col-md-3 col-sm-3"> </div>
+                        <!--/.box-->
+                    </div><!--/.container-->
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 col-md-5 col-sm-4 text-align-right">
+                            <img src="images/Noobox1.png" class="imag-noobox1">
+                        </div>
+                        <div class="col-xs-4 col-md-2 col-sm-4">
+                            <ul class="list-inline social-buttons social-buttons-style text-align-center">
+                                <li>
+                                    <a href="https://twitter.com/noonoodlesuk"><i class="fa fa-twitter fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/NOONOODLES.UK/"><i class="fa fa-instagram fa-3x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/noonoodles.uk/"><i class="fa fa-facebook fa-3x"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-xs-4 col-md-5 col-sm-4 text-align-left">
+                            <img src="images/Noobox2.png" class="imag-noobox2">
+                        </div>
+                    </div>
+    </section><!--/#contact-->
+    <footer id="footer footer-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-6 col-sm-6">
+                    &copy; 2017 <a target="_blank" href="http://noonoodles.co.uk/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">NooNoodles</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<style>
+
+ .bak {
+    background: 
+    url("images/back-img.png") right bottom, /* Путь к фоновому рисунку */
+    url("images/back-img.png") left bottom; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+     background-size: 8%
+
+   }
+ 
+
+</style>
